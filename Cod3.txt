@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+int a, b;
+int result;
+
+a = 10;
+b = 30;
+
+result  = (a + b) / 2;
+
+cout << result;
+
+return 0;
+
+}
