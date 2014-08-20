@@ -13,6 +13,4 @@ result  = (a + b) / 2;
 
 cout << result;
 
-return 0;
-
 }
