@@ -1,36 +1,15 @@
-package bubblesort;
-public class BubbleSort {
+#include <iostream>
+using namespace std;
 
-    public static void main(String[] args) {
-    
-        int[] vet = {33, 22, 11, 44, 55};
-        int aux, i;
-	aux = 0;
-	i = 0;
+const double pi = 3.14159;
+const char newline = '\n';
 
-	for(i = 0; i<5; i++)
-        {
-		System.out.println(" "+vet[i]);
-	}
-	System.out.println(" ");
-	
-	for(i = 0; i<5; i++)
-        {
-		for(int j = 0; j<4; j++)
-                {
-			if(vet[j] > vet[j + 1])
-                        {
-				aux = vet[j];
-				vet[j] = vet[j+1];
-				vet[j+1] = aux;
-			}
-		}
-	}
+int main ()
+{
+    double r = 5.0;
+    double circle;
 
-	System.out.println("Valores Ordenados:");
-	for(i = 0; i<5; i++)
-		System.out.println(" "+vet[i]);
+    circle = 2 * pi * r;
+    cout << circle;
+    cout << newline;
 }
-
-    }
-
