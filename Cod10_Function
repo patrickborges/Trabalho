@@ -1,0 +1,28 @@
+// using Function
+
+#include <iostream>
+//#include <string>
+
+using namespace std;
+
+int addition (int a, int b)
+{
+    int r;
+    r=a+b;
+    return r;
+}
+
+
+int main ()
+{
+    int z, n1, n2;
+    cout << "Digite o primeiro numero " << endl;
+    cin >> n1;
+    cout << "Digite o segundo numero " << endl;
+    cin >> n2;
+    z = addition(n1,n2);
+    cout << "The result is " << z << endl;
+
+    return 0;
+
+}
